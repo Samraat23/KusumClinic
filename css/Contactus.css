@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 1px 2px 1px ;
+    position: fixed;
+    background-color: rgba(255,255,255);
+    z-index: 999;
+    width: 100%;
+    height: 120px;
+    padding: 30px;
+}
+.nav_logo img{
+    width: 150px;
+    height: 60px;
+}
+.navbar a{
+    color: brown;
+    font-size: 20px;
+    margin-left: 50px;
+    text-transform: capitalize;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.navbar a:hover{
+    background-color: #eec0c0;
+    padding: 7px;
+    border-radius: 12px;
+    color: rgba(255,255,255,1);
+  
+}
+.book_appoint a{
+    width: 180px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,1);
+    font-size: 15px;
+    background-color: #af1f60;
+    color: rgba(255,255,255,1);
+    word-spacing: 5px;
+    cursor: pointer;
+    font-family: poppins;
+}
+.book_appoint a:hover{
+    background-color: rgba(255,255,255,1);
+    color:#d07c7c;
+    border: 2px solid #d07c7c ;
+    transition: ease-in .2s;
+    cursor: pointer;
+    font-family: poppins;
+}
+
+.contact_box{
+    position: relative;
+    top: 120px;
+    width: 100%;
+    height: 400px;
+    background-color: #eec0c0;
+}
+.contact_image img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+.contact_content h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 45px;
+    color: rgba(255,255,255,1);
+}
+.contact_content p{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    font-size: 25px;
+    width: 650px;
+    color: rgba(0,0,0,1);
+}
+.contact_detail_box{
+    width: 900px;
+    height: 300px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.address{
+    width: 250px;
+    height: 300px;
+    border: 2px solid rgb(246, 246, 246);
+    border-radius: 10px;
+     background-color: #e9ecef;
+     box-shadow: 2px 1px 2px 1px ;
+    
+    text-align: center;
+}
+.address img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 30px;
+}
+.address h1{
+    position: relative;
+    top: 40px;
+}
+.address p{
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    background-color: #e9ecef;
+}
+.footer_logo img{
+    width: 200px;
+    height: 200px;
+}
+.footer_main{
+    display: flex;
+    justify-content: space-around
+    ;
+    position: relative;
+    top: 100px;
+  
+}
+.footer_logo{
+    width: 30%;
+    position: relative;
+    
+    
+}
+.footer_logo img{
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.footer_logo p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 10px 0 0 10px;
+}
+.footer_logo button {
+    width: 250px;
+    height: 50px;
+    color: rgba(255,255,255,1);
+    background-color: #af1f60;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px 0 0 10px;
+    font-size: 20px;
+
+}
+.treatment-- h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.treatment-- li a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 40px;
+}
+.treatment-- ul{
+    padding-top: 30px;
+}
+
+.treatment-- li{
+    padding-bottom: 20px;
+    
+}
+
+
+.contact h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+}
+.contact p{
+  padding: 30px 0 0 0 ;
+  color: rgb(0, 0, 0);
+  width: 220px;
+  font-size: 20px;
+
+  
+}
+.usefull_link{
+    width: 250px;
+}
+.usefull_link h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 200px;
+   
+}
+.usefull_link ul{
+    padding-top: 20px;
+}
+.usefull_link li{
+    padding: 10px;
+}
+.usefull_link li a{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.folloup{
+    display: flex;
+    margin-top: 50px;
+}
+.folloup i{
+    width: 20px;
+    height: 30px;
+}
+.sub_footer{
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    color: rgba(255,255,255,1);
+    margin-top: 200px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+#webbook{
+    width: 180px;
+    padding: 10px;
+    border: 1px solid brown;
+    position: absolute;
+    top: 250px;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+    background-color: #af1f60;
+    border-radius: 10px;
+}
+#book_scaner{
+    width: 80%;
+    height: 200px;
+}
+
+
