@@ -54,3 +54,27 @@ const Cgonext = () =>{
     }
 }
 
+const hamburger = document.querySelector('#Hummenu');
+const menucancel = document.querySelector("#cancel");
+
+hamburger.addEventListener('click', function() {
+    var navbar = document.querySelector(".navbar");
+    var cancel = document.querySelector("#cancel");
+    navbar.style.transform = `translateX(0%)`;
+    navbar.style.opacity = 1;
+    navbar.style.visibility = "visible";
+    cancel.style.display = 'block';
+    this.style.display = 'none'; // Hide the hamburger menu
+});
+
+menucancel.addEventListener('click', function() {
+    var navbar = document.querySelector(".navbar");
+    var hum = document.querySelector('#Hummenu');
+    navbar.style.transform = `translateX(-100%)`; // Hide the navbar by moving it off-screen
+    navbar.style.opacity = 0;
+    navbar.style.visibility = "hidden";
+    this.style.display = 'none'; // Hide the cancel button
+    hum.style.display = "block"; // Show the hamburger menu again
+});
+
+

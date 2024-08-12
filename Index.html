@@ -1,52 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kusum Gynae</title>
+    <link rel="shortcut icon" href="Image/kusumcliniclogo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Image/kusumcliniclogo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/Index.css">
+    <link rel="stylesheet" href="css/MediaQuery/Mhome.css">
     <script src="https://kit.fontawesome.com/4ac0b26555.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <nav>
-    <div class="nav_logo">
-        <a href="Index.html"><img src="Image/kusumcliniclogo.png" alt=""></a>
-    </div>
-    <div class="navbar">
-        <a href="Index.html">Home</a>
-        <a href="AboutUs.html">About Us</a>
-        <a href="Treatment.html">Treatment</a>
-        <a href="Contactus.html">Contact Us</a>
-        <a href="Gallary.html">Gallery </a>
-        <a href="Blogpage.html">Blogs</a>
-    </div>
-    <div class="book_appoint">
-         <a href="https://wa.me/919289140812?text=How can i help you"  target="_blank" id="webwhat">Book Appointment</a>
-    </div>
-  </nav>
+    <nav>
+        <div class="nav_logo">
+            <a href="Index.html"><img src="Image/kusumcliniclogo.png" alt=""></a>
+        </div>
+        <div id="Hummenu">
+            <i class="fa-solid fa-bars "></i>
+        </div>
+        <div id="cancel" onclick="togglefun()"><i class="fa-solid fa-xmark"></i></div>
+        <div class="navbar">
+            <a href="Index.html">Home</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="Treatment.html">Treatment</a>
+            <a href="Contactus.html">Contact Us</a>
+            <a href="Gallary.html">Gallery </a>
+            <a href="Blogpage.html">Blogs</a>
+        </div>
+        <div class="book_appoint">
+            <a href="https://wa.me/919289140812?text=How can i help you" target="_blank" id="webwhat">Book
+                Appointment</a>
+        </div>
+    </nav>
     <header>
         <img src="Image/websiteimage20244.JPG" alt="">
     </header>
     <main>
         <div class="aboutus">
             <div class="about_img">
-                <div class="img_box1"></div>
-                <div class="img_box2"></div>
-                <img src="Image/aboutus.jpeg" alt="">
+                <img  src="Image/aboutus.jpeg" alt="">
             </div>
             <div class="about_content">
                 <h5>About</h5><br>
-                <h1 style="color: brown;">Dr.Kusum Lata</h1>
+                <h2 style="color: brown;">Dr.Kusum Lata</h2><br>
                 <h4>MD - Obstetrics & Gynaecology, MBBS
-
                     Laparoscopic Surgeon (Obs & Gyn),Gynecologist,Obstetrician
-                    17 Years Experience Overall  (12 years as specialist)</h4> <br>
-                    <p>Dr. Kusum is a renowned Gynecologist and Laparoscopic Surgeon. She has vast experience of various premiere institutes of North India like PGI, Chandigarh, AIIMS New DELHI & PGIMS Rohtak.
-                        She completed her post-graduation (MD) in Obstetrics & Gynecology from prestigious apex institute PGIMER, Chandigarh. She has been trained from All India Institute of Medical Science and served as a consultant in AIIMS, New Delhi and treated huge number of women due to her vast knowledge of every kind of gynecological problem. She has served as a faculty in PGIMS Rohtak also. She has good experience in managing high-risk cases in Obstetrics and Gynecology, infertility, adolescent health issues.
-                    </p>
-                    <button><a id="aboutbtn" href="AboutUs.html">Read More</a></button>
+                    17 Years Experience Overall (12 years as specialist)</h4><br>
+                <p>Dr. Kusum is a renowned Gynecologist and Laparoscopic Surgeon. She has vast experience of various
+                    premiere institutes of North India like PGI, Chandigarh, AIIMS New DELHI & PGIMS Rohtak.
+                    She completed her post-graduation (MD) in Obstetrics & Gynecology from prestigious apex institute
+                    PGIMER, Chandigarh.<span class="spann"> She has been trained from All India Institute of Medical Science and served as a
+                    consultant in AIIMS, New Delhi and treated huge number of women due to her vast knowledge of every
+                    kind of gynecological problem. She has served as a faculty in PGIMS Rohtak also. She has good
+                    experience in managing high-risk cases in Obstetrics and Gynecology, infertility, adolescent health
+                    issues.</span>
+                </p>
+                <button id="btnabt"><a id="aboutbtn" href="AboutUs.html">Read More</a></button>
             </div>
-           
+
         </div>
     </main>
     <div class="total_service">
@@ -71,56 +84,64 @@
     </div>
     <div class="what_about">
         <h1>What People Say About Us</h1>
-    <div class="textimonial_t">
-        <div class="testimonial_frame">
-            <div class="textimonial_box">
-                <img src="Image/userprofile.jpg" alt="" srcset="">
-                <h2>⭐⭐⭐⭐⭐</h2>
-                <p>Dr. Kusum is a very polite gynecologist who truly cares about her patients well-being. She took the time to listen to my concerns and thoroughly explained each procedure with patience and clarity.
-                    Highly recommended.</p>
-                <h4>Deepti Gupta</h4>
+        <div class="textimonial_t">
+            <div class="testimonial_frame">
+                <div class="textimonial_box">
+                    <img src="Image/userprofile.jpg" alt="" srcset="">
+                    <h2>⭐⭐⭐⭐⭐</h2>
+                    <p>Dr. Kusum is a very polite gynecologist who truly cares about her patients well-being. She took
+                        the time to listen to my concerns and thoroughly explained each procedure with patience and
+                        clarity.
+                        Highly recommended.</p>
+                    <h4>Deepti Gupta</h4>
+                </div>
+                <div class="textimonial_box">
+                    <img src="Image/userprofile.jpg" alt="" srcset="">
+                    <h2>⭐⭐⭐⭐⭐</h2>
+                    <p>I can’t thank you enough for the special, excellent care you have provided and for the unique
+                        gift you are to your patients.”You and your staff have made such a huge difference for me. I am
+                        feeling much better, and I appreciate all you have done. (Kusum Lata )</p>
+                    <h4>Manuj Saxena</h4>
+                </div>
+                <div class="textimonial_box">
+                    <img src="Image/userprofile.jpg" alt="" srcset="">
+                    <h2>⭐⭐⭐⭐⭐</h2>
+                    <p>A very positive,kind hearted and a trained doctor (Dr.Kusumlata) doing a great job for the
+                        betterment of her patients as well as for the society with the support of her talented and kind
+                        hearted staff.Nice experience with her.Keep it up mam .Congratulations.</p>
+                    <h4>Rashmi Sharma</h4>
+                </div>
+                <div class="textimonial_box">
+                    <img src="Image/userprofile.jpg" alt="" srcset="">
+                    <h2>⭐⭐⭐⭐⭐</h2>
+                    <p>Nice experience for first time. The staff and Dr. Kusum Lata we're awesome. I loved the way how
+                        Dr. Kusum lata really explain my condition with me . She is so clam to handle any problem</p>
+                    <h4>Kanika Makkar</h4>
+                </div>
+                <div class="textimonial_box">
+                    <img src="Image/userprofile.jpg" alt="" srcset="">
+                    <h2>⭐⭐⭐⭐⭐</h2>
+                    <p>Her commitment towards patient’s well being is truly commendable and beyond the operating room!
+                        Would wholeheartedly recommend Dr Kusum.</p>
+                    <h4>Komal Kalra</h4>
+                </div>
             </div>
-            <div class="textimonial_box">
-                <img src="Image/userprofile.jpg" alt="" srcset="">
-                <h2>⭐⭐⭐⭐⭐</h2>
-                <p>I can’t thank you enough for the special, excellent care you have provided and for the unique gift you are to your patients.”You and your staff have made such a huge difference for me. I am feeling much better, and I appreciate all you have done. (Kusum Lata )</p>
-                <h4>Manuj Saxena</h4>
-            </div>
-            <div class="textimonial_box">
-                <img src="Image/userprofile.jpg" alt="" srcset="">
-                <h2>⭐⭐⭐⭐⭐</h2>
-               <p>A very positive,kind hearted and a trained doctor (Dr.Kusumlata) doing a great job for the betterment of her patients as well as for the society with the support of her talented and kind hearted staff.Nice experience with her.Keep it up mam .Congratulations.</p>
-               <h4>Rashmi Sharma</h4>
-            </div>
-            <div class="textimonial_box">
-                <img src="Image/userprofile.jpg" alt="" srcset="">
-                <h2>⭐⭐⭐⭐⭐</h2>
-                <p>Nice experience for first time. The staff and Dr. Kusum Lata we're awesome. I loved the way how  Dr. Kusum lata  really explain my condition with me . She is so clam to handle any problem</p>
-                <h4>Kanika Makkar</h4>
-            </div>
-            <div class="textimonial_box">
-                <img src="Image/userprofile.jpg" alt="" srcset="">
-                <h2>⭐⭐⭐⭐⭐</h2>
-               <p>Her commitment towards patient’s well being is truly commendable and beyond the operating room! Would wholeheartedly recommend Dr Kusum.</p>
-                <h4>Komal Kalra</h4>
-            </div>
-        </div> 
+        </div>
+        <div class="btn_arror">
+            <button id="arrow_left" onclick="goprev()">&lt;</button>
+            <button id="arrow_right" onclick="gonext()">&gt;</button>
+        </div>
     </div>
-    <div class="btn_arror">
-        <button id="arrow_left" onclick="goprev()">&lt;</button>
-        <button id="arrow_right" onclick="gonext()">&gt;</button>
-    </div>
-</div>
 
-  
-     <main>
+
+    <main>
         <h1>Our Services</h1>
         <div class="our_services">
             <div class="image_size">
                 <img src="/Image/endometrosis22.jpg" alt="">
                 <a href="Endo.html">ENDOMETROISIS</a>
             </div>
-             <div class="image_size">
+            <div class="image_size">
                 <img src="/Image/overian cyst22.jpg" alt="">
                 <a href="overian.html">Ovarian CYST</a>
             </div>
@@ -138,7 +159,7 @@
             </div>
             <div class="image_size">
                 <img src="/Image/gynecology22.jpg" alt="">
-                <a href="">Gynecology</a>
+                <a href="Gyno.html">Gynecology</a>
             </div>
             <div class="image_size">
                 <img src="/Image/infertility - Copy.jpg" alt="">
@@ -153,7 +174,7 @@
                 <a href="Pregnancy.html" id="preganacu_care">Pregnancy care</a>
             </div>
         </div>
-     </main>
+    </main>
     <div class="Association">
         <h1>Our Associations</h1>
         <div class="Association_div">
@@ -169,89 +190,116 @@
                 <p>multi-specialty hospital</p>
             </div>
         </div>
-        </div>
-       
-         <div class="blog_section">
-            <h1 class="our_blog" style="color: black;">Our Blogs</h1>
-            <div class="blog_flex">
-                <div class="blog_item">
-                    <img src="Image/drkusu10may.JPG" alt="">
-             
-                    <h1><a href="Bloglaproscopic.html">What is Laparoscopy ?</a></h1>
-                    <p>Laparoscopy is a minimally invasive surgical technique used to diagnose and treat various
-                        conditions within the abdominal.....<a href="Bloglaproscopic.html">Read More</a></p>
-                    
-                    
-                </div>
-                <div class="blog_item">
-                    <img src="Image/gynocologist12may.jpg" alt="">
-                    <h1><a href="Blogtaofgyne.html">The Art of Selecting a Top-notch Gynecologist</a></h1>
-                    <p>Many people experience anxiety or nervousness when visiting the gynaecologist as.....<a href="Blogtaofgyne.html">Read More</a></p>
-                        
-                </div>
-                <div class="blog_item">
-                    <img src="Image/hysterectomyoverview_1280.jpg" alt="">
-                    <h1><a href="">What is Hysteroscopy ?</a></h1>
-                    <p>Laparoscopy is a minimally invasive surgical technique used to diagnose and treat various
-                        conditions within the abdominal.....<a href="Hystre.html">Read More</a></p>
-                </div>
-            </div>
-         </div>
+    </div>
 
-         <div class="map_location">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.7517038304545!2d77.1042577745015!3d28.426748093397652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d238b179bf883%3A0x67fc21df80c580e7!2sDr.%20Kusum%20Lata%20(Ex%20-%20AIIMS)%20Best%20Laparoscopic%20Surgeon%20%26%20Pregnancy%20Specialist%20in%20Gurgaon!5e0!3m2!1sen!2sin!4v1715600784004!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-         </div>
-       
-         <footer>
-            <div class="footer_main">
-                <div class="footer_logo">
-                    <img src="Image/kusumcliniclogo.png" alt="">
-                    <p>Dr. Kusum Lata  <br>MD - Obstetrics & Gynaecology, MBBS , Laparoscopic Surgeon , Gynecologist,Obstetrician <br>17 Years Experience Overall.</p>
-                    <a href="https://wa.me/919289140812?text=How can i help you"  target="_blank" id="webbook">Book Appointment</a>
-                </div>
-                <div class="usefull_link">
-                    <h1>Useful Links</h1>
-                    <ul>
-                        <li><a href="Index.html">Home</a></li>
-                        <li><a href="AboutUs.html">About us</a></li>
-                        <li><a href="Treatment.html">Treatment</a></li>
-                        <li><a href="Blogpage.html">Blogs</a></li>
-                        <li><a href="Contactus.html">Contact Us</a></li>
-                        <li><a href="Gallary.html">Gallery</a></li>
-                    </ul>
-                </div>
-                <div class="treatment--">
-                    <h1>Treamtment</h1>
-                    <ul>
-                        <li><a href="Endo.html">Endometriosis</a></li>
-                        <li><a href="overian.html">Ovarian Cyst</a></li>
-                        <li><a href="Fibro.html">Fibroids</a></li>
-                        <li><a href="Hystre.html">Hysteroscopy</a></li>
-                        <li><a href="Vaginal.html">Vaginal Infections</a></li>
-                        <li><a href="Pcos.html">PCOS</a></li>
-                        <li><a href="Gyno.html">Gynecology</a></li>
-                        <li><a href="Pregnancy.html">Pregnancy Care</a></li>
-                        <li><a href="Infertility.html">Infertility</a></li>
-                    </ul>
-                </div>
-                <div class="contact">
-                    <h1>Contcat US</h1>
-                    <p>287,Fourth Floor, A1 Block, Sushant lok-2,
-                        Sector- 55, Gurgaon,<br> Pin-Code : 122011<br>
-                        Contact : 9289140812 <br>
-                        Email: drkusumlata86@yahoo.com</p>
-                </div>
+    <div class="blog_section">
+        <h1 class="our_blog" style="color: black;">Our Blogs</h1>
+        <div class="blog_flex">
+            <div class="blog_item">
+                <img src="Image/drkusu10may.JPG" alt="" class="bloimg">
+
+                <h1><a href="Bloglaproscopic.html">What is Laparoscopy ?</a></h1>
+                <p class="blogpara">Laparoscopy is a minimally invasive surgical technique used to diagnose and treat various
+                    conditions within the abdominal.....<a href="Bloglaproscopic.html">Read More</a></p>
             </div>
-            <div id="dis_hr">
+            <div class="blog_item">
+                <img src="Image/gynocologist12may.jpg" alt="" class="bloimg">
+                <h1><a href="Blogtaofgyne.html">The Art of Selecting a  Gynecologist</a></h1>
+                <p>Many people experience anxiety or nervousness when visiting the gynaecologist as.....<a
+                 href="Blogtaofgyne.html">Read More</a></p>
+            </div>
+
+            <div class="blog_item">
+                <img src="Image/hysterectomyoverview_1280.jpg" alt="" class="bloimg">
+                <h1><a href="">What is Hysteroscopy ?</a></h1>
+                <p>Laparoscopy is a minimally invasive surgical technique used to diagnose and treat various
+                    conditions within the abdominal.....<a href="Hystre.html">Read More</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="map_location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.7517038304545!2d77.1042577745015!3d28.426748093397652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d238b179bf883%3A0x67fc21df80c580e7!2sDr.%20Kusum%20Lata%20(Ex%20-%20AIIMS)%20Best%20Laparoscopic%20Surgeon%20%26%20Pregnancy%20Specialist%20in%20Gurgaon!5e0!3m2!1sen!2sin!4v1715600784004!5m2!1sen!2sin"
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="mobileversion_footer">
+        <div class="mobile_footer">
+            <div class="left_mobile">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="AboutUs.html">About us</a></li>
+            <li><a href="Treatment.html">Treatment</a></li>
+            </div>
+            <div class="right_mobile">
+                <li><a href="Blogpage.html">Blogs</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+                <li><a href="Gallary.html">Gallery</a></li>
+            </div>
+            
+        </div>
+        <div class="mobile_appointment">
+            <button> <a href="https://wa.me/919289140812?text=How can i help you" target="_blank" id="mobile_booked">Book Appointment</a></button>
+            <p>287,Fourth Floor, A1 Block, Sushant lok-2,
+                Sector- 55, Gurgaon,<br></p>
+            <div class="fffff123">© Copyright 2024, Dr. Kusum Lata | All Rights Reserved.</div>
+        </div>
+        </div>
+
+    <footer>
+       
+        <div class="footer_main">
+            <div class="footer_logo">
+                <img src="Image/kusumcliniclogo.png" alt="">
+                <p>Dr. Kusum Lata <br>MD - Obstetrics & Gynaecology, MBBS , Laparoscopic Surgeon ,
+                    Gynecologist,Obstetrician <br>17 Years Experience Overall.</p>
+                <a href="https://wa.me/919289140812?text=How can i help you" target="_blank" id="webbook">Book
+                    Appointment</a>
+            </div>
+            <div class="usefull_link">
+                <h1>Useful Links</h1>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="AboutUs.html">About us</a></li>
+                    <li><a href="Treatment.html">Treatment</a></li>
+                    <li><a href="Blogpage.html">Blogs</a></li>
+                    <li><a href="Contactus.html">Contact Us</a></li>
+                    <li><a href="Gallary.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="treatment--">
+                <h1>Treamtment</h1>
+                <ul>
+                    <li><a href="Endo.html">Endometriosis</a></li>
+                    <li><a href="overian.html">Ovarian Cyst</a></li>
+                    <li><a href="Fibro.html">Fibroids</a></li>
+                    <li><a href="Hystre.html">Hysteroscopy</a></li>
+                    <li><a href="Vaginal.html">Vaginal Infections</a></li>
+                    <li><a href="Pcos.html">PCOS</a></li>
+                    <li><a href="Gyno.html">Gynecology</a></li>
+                    <li><a href="Pregnancy.html">Pregnancy Care</a></li>
+                    <li><a href="Infertility.html">Infertility</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h1>Contcat US</h1>
+                <p>287,Fourth Floor, A1 Block, Sushant lok-2,
+                    Sector- 55, Gurgaon,<br> Pin-Code : 122011<br>
+                    Contact : 9289140812 <br>
+                    Email: drkusumlata86@yahoo.com</p>
+            </div>
+        </div>
+        <div id="dis_hr">
             <hr id="disclamir">
         </div>
-            <div class="discharge_content">
-            <p>Disclaimer: The content published on the website "www.drkusumlata.in" is for generating awareness and is solely intended for educational purposes only. It should not be treated as a substitute for professional advice or prescription. Every individual and their case is different, and the results may vary from person to person.</p>
-            </div>
-            <div class="sub_footer">© Copyright 2024, Dr. Kusum Lata | All Rights Reserved.
-            </div>
-        </footer>
+        <div class="discharge_content">
+            <p>Disclaimer: The content published on the website "www.drkusumlata.in" is for generating awareness and is
+                solely intended for educational purposes only. It should not be treated as a substitute for professional
+                advice or prescription. Every individual and their case is different, and the results may vary from
+                person to person.</p>
+        </div>
+        <div class="sub_footer">© Copyright 2024, Dr. Kusum Lata | All Rights Reserved.</div>
+    </footer>
     <script src="js/feedbackslide.js"></script>
 </body>
-
 </html>

@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact us</title>
+    <link rel="shortcut icon" href="Image/kusumcliniclogo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/Contactus.css">
     <link rel="stylesheet" href="css/Index.css">
+    <link rel="stylesheet" href="css/MediaQuery/Mcontact.css">
+    <script src="https://kit.fontawesome.com/4ac0b26555.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
         <div class="nav_logo">
             <a href="Index.html"><img src="Image/kusumcliniclogo.png" alt=""></a>
         </div>
+        <div id="Hummenu">
+            <i class="fa-solid fa-bars "></i>
+        </div>
+        <div id="cancel" onclick="togglefun()"><i class="fa-solid fa-xmark"></i></div>
         <div class="navbar">
             <a href="Index.html">Home</a>
             <a href="AboutUs.html">About Us</a>
@@ -50,6 +57,27 @@
             <h1>Book with US</h1>
         </div>
     </div>
+    <div class="mobileversion_footer">
+        <div class="mobile_footer">
+            <div class="left_mobile">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="AboutUs.html">About us</a></li>
+            <li><a href="Treatment.html">Treatment</a></li>
+            </div>
+            <div class="right_mobile">
+                <li><a href="Blogpage.html">Blogs</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+                <li><a href="Gallary.html">Gallery</a></li>
+            </div>
+            
+        </div>
+        <div class="mobile_appointment">
+            <button> <a href="https://wa.me/919289140812?text=How can i help you" target="_blank" id="mobile_booked">Book Appointment</a></button>
+            <p>287,Fourth Floor, A1 Block, Sushant lok-2,
+                Sector- 55, Gurgaon,<br></p>
+            <div class="fffff123">© Copyright 2024, Dr. Kusum Lata | All Rights Reserved.</div>
+        </div>
+        </div>
     <footer>
         <div class="footer_main">
             <div class="footer_logo">
@@ -100,6 +128,6 @@
         </div>
     </footer>
 
-    
+    <script src="js/Aboutus.js"></script>
 </body>
 </html>

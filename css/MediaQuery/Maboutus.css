@@ -10,10 +10,7 @@
     cursor: pointer;
 
 }
-.mobile_footer{
-display: none;
-}
-.mobile_appointment{
+.mobileversion_footer{
     display: none;
 }
 
@@ -34,7 +31,6 @@ display: none;
       height: 121vh;
       position: absolute;
       background-color: rgb(163, 227, 236);
-     
       top: 0;
       left:0;
       display: flex;
@@ -54,7 +50,6 @@ display: none;
         text-align: center;
         right: 15px;
     }
-   
     .nav_logo img{
         width: 150px;
     }
@@ -72,136 +67,90 @@ display: none;
         left: 2px;
         display: none;
     }
-    header img{
-        margin-top: 100px;
-        height: 300px;
-    }
     .aboutus{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        align-items: center;
     }
-    .about_img img{
-        width: 250px;
-        height: 250px;
-        margin-top: 20px;
+    main h1{
+        color: #af1f60;
     }
-    .about_content{
-        display: flex;
-        flex-direction: column;
+    main h4{
+        font-family: poppins;
     }
-    .about_content h5{
-        display: none;
+    main p{
+        font-family: poppins;
     }
-    .about_content h2{
+    .amargin {
+        position: relative;
+        top: 110px;
+    }
+    #aboutimg{
+        width: 200px;
+        height: 200px;
+    }
+    .about_content h5 {
         text-align: center;
     }
-    .about_content h4{
-        width: 350px;
-        text-align: left;
-        align-self: center;    
-    }
-    .about_content p{
-        align-self: center;
-        width: 350px;
-       text-align: justify;
-    }
-    .spann{
+    .about_content{
         display: none;
     }
-    #btnabt{
-        align-self: center;
-        margin: 20px 0px;
+    #drkusum{
+        text-align: center;
+        font-size: 26px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
-    .total_service{
+    .mobile_about h4{
+        text-align:left;
+        padding: 0px 20px 0px 20px;
+    }
+    .mobile_about p{
+        text-align: justify;
+        padding: 0px 20px 15px 20px;
+    }
+    .mobile_about{
+        display: block;
+      }
+      .public{
         display: none;
+      }
+      .slide_container{
+        display: none;
+      }
+      .arrow{
+        display: none;
+      }
+     .work_exprience{
+        display: none;
+     }
+     .qualification{
+        height: 750px;
+     }
+     .qualification_flex{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: -20px;
+        
+     }
+     
+     #qual{
+        font-size: 28px;
+     }
+     
+     .qualification_degree{
+        width: 200px;
+        height: 200px;
+     transition: transform .5s;
     }
-    .what_about{
-        font-size: 10px;
-    }
-    .textimonial_box{
-        width: 300px;
-        height: 300px; 
-}
-.testimonial_frame{
-    margin-left: 80px;
-}
-.image_size{
-    width: 160px;
-    height: 160px;
-}
-.our_services{
-    gap:20px
-}
-.image_size a{
-    width: 100px;
-    font-size: 10px;
-    bottom: 50px;
-    align-items: center;
-    border: none;
-}
-.image_size a:hover{
-    color: white;
-    background-color: black;
-}
-main h1{
-    padding: 20px 0px;
-}
-#Cervical{
-    width: 100px;
-}
-#vaginal{
-    width: 120px;
-}
-#preganacu_care{
-    width: 120px;
-}
-.Association{
-    display: none;
-}
-.map_location{
-    display: none;
-}
-.blog_flex{
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.blog_section{
-    height: 950px;
-}
-
-.blog_item img{
-    width: 300px;
-    height: 200px;
-    
-}
-.blog_item h1{
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-}
-.blog_item p{
-    text-align: center;
-    width: 300px;
-}
-.our_blog{
-    padding-top: 10px;
-
-}
-.blog_item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-}
-
-.what_about{
-    display: none;
-}
+     .awardment{
+        flex-direction: column;
+        margin-bottom: 20px;
+     }
 .mobileversion_footer{
     background-color: #e9ecef;
     height: auto;
+    display: block;
    
 }
 .mobile_footer{
@@ -261,7 +210,34 @@ main h1{
 footer{
     display: none;
 }
-  
-
-
+#award_achive {
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    text-align: center;
+    color: brown;
+    font-family: sans-serif;
+}
+.awardment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    font-family: poppins;
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px 10px;
+}
+.awardment img {
+    width: 200px;
+    height: 200px;
+    
+}
+.imagecontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }

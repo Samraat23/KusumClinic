@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cervical Cancer</title>
+    <link rel="shortcut icon" href="Image/kusumcliniclogo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/Blogtaofgyne.css">
     <link rel="stylesheet" href="css/Fibro.css">
+    <link rel="stylesheet" href="css/MediaQuery/Mbcervical.css">
+    <script src="https://kit.fontawesome.com/4ac0b26555.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
         <div class="nav_logo">
             <a href="Index.html"><img src="Image/kusumcliniclogo.png" alt=""></a>
+        </div>
+        <div id="Hummenu">
+            <i class="fa-solid fa-bars "></i>
+        </div>
+        <div id="cancel" onclick="togglefun()">
+            <i class="fa-solid fa-xmark"></i>
         </div>
         <div class="navbar">
             <a href="Index.html">Home</a>
@@ -19,7 +28,6 @@
             <a href="Contactus.html">Contact Us</a>
             <a href="Gallary.html">Gallery</a>
             <a href="Blogpage.html">Blogs</a>
-            
         </div>
         <div class="book_appoint">
              <a href="https://wa.me/919289140812?text=How can i help you"  target="_blank" id="webwhat">Book Appointment</a>
@@ -44,21 +52,21 @@
                 cancers, and genital warts.</p>
             <h1 id="topic">What are the types of HPV Vaccines:</h1>
 
-            <p id="the_art"> <b class="br"> 1. Gardasil (Quadrivalent HPV Vaccine) :</b>Only a well trained doctor or gynecologist is what we all looking for to meet
+            <p id="the_art"> <b class="br"> 1. Gardasil (Quadrivalent HPV Vaccine) : </b>Only a well trained doctor or gynecologist is what we all looking for to meet
                 our needs. So read about the gynecologist qualification, work experience and training..</p><br><br>
 
-                <p id="the_art"> <b class="br"> 2. Gardasil 9:</b>The most widely used HPV vaccine, Gardasil 9, protects against nine HPV
+                <p id="the_art"> <b class="br"> 2. Gardasil 9 : </b>The most widely used HPV vaccine, Gardasil 9, protects against nine HPV
                     types: 6, 11, 16, 18, 31, 33, 45, 52, and 58. Types 16 and 18 are responsible for the
                     majority of cervical cancer cases, while types 6 and 11 cause most genital warts.
                     ( approximate cost; 10,000/- per dose)</p><br><br>
 
-                    <p id="the_art"> <b class="br"> 3. Cervavac :</b>Cervavac is an Indian-developed HPV vaccine by the Serum Institute of India. It aims
+                    <p id="the_art"> <b class="br"> 3. Cervavac : </b>Cervavac is an Indian-developed HPV vaccine by the Serum Institute of India. It aims
                         to provide a cost-effective solution for preventing cervical cancer in India and
                         potentially other low- and middle-income countries. ( approximate cost; 2000/- per
                         dose)</p><br><br>
 
                         <h1 id="topic">Who Should Get Vaccinated:</h1>
-                        <p id="the_art"> <b class="br">Recommended Age:</b>The vaccine is recommended for preteens (boys and girls) aged 11 to
+                        <p id="the_art"> <b class="br">Recommended Age : </b>The vaccine is recommended for preteens (boys and girls) aged 11 to
                             12, but it can be administered as early as age 9.
                             
                             As most of the women are not even aware of cervical cancer and most are not vaccinated so
@@ -67,20 +75,20 @@
                         <b>HPV Vaccine can be given up to 45 years of age ( 3 doses)</b></p><br><br>
 
                         <h1 id="topic">Vaccination Schedule:</h1>
-                        <p id="the_art"> <b class="br">Two-Dose :</b>For people ages 9-14, only 2 shots. The second shot is given 6 months after the
+                        <p id="the_art"> <b class="br">Two-Dose : </b>For people ages 9-14, only 2 shots. The second shot is given 6 months after the
                             first shot.</p><br><br>
 
-                            <p id="the_art"> <b class="br">Three dose :</b>:For people ages 15-45, the HPV vaccine is given in 3 separate shots.  The
+                            <p id="the_art"> <b class="br">Three dose : </b>:For people ages 15-45, the HPV vaccine is given in 3 separate shots.  The
                                 second shot is given 2 months after the first, and the third shot is given 4 months after the
                                 second shot.</p><br><br>
 
-                                <p id="the_art"> <b class="br">Effectiveness:</b>The HPV vaccine is highly effective at preventing infection with the HPV types
+                                <p id="the_art"> <b class="br">Effectiveness : </b>The HPV vaccine is highly effective at preventing infection with the HPV types
                                     it targets when given before exposure to the virus. The vaccine is most effective when given
                                     before individuals become sexually active, but it is still beneficial for those who are already
                                     sexually active. Even if someone has had an HPV infection before, the vaccine can protect
                                     against other strains they have not yet been there.</p><br><br>
 
-                                    <p id="the_art"> <b class="br">Safety:</b>The HPV vaccine has been extensively studied and is considered safe.</p><br><br>
+                                    <p id="the_art"> <b class="br">Safety : </b>The HPV vaccine has been extensively studied and is considered safe.</p><br><br>
 
                                     <p id="the_art"><b>So please invest on your health and get yourself vaccinated as this is the best health
                                         investment one can do. Get yourself vaccinated and encourage your friends and
@@ -88,6 +96,27 @@
                                         For further information, please consult our expert  <a href="https://g.co/kgs/iy6rzDe">Dr.Kusum Lata</b></p><br><br>
                 
      </main>
+     <div class="mobileversion_footer">
+        <div class="mobile_footer">
+            <div class="left_mobile">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="AboutUs.html">About us</a></li>
+            <li><a href="Treatment.html">Treatment</a></li>
+            </div>
+            <div class="right_mobile">
+                <li><a href="Blogpage.html">Blogs</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+                <li><a href="Gallary.html">Gallery</a></li>
+            </div>
+            
+        </div>
+        <div class="mobile_appointment">
+            <button> <a href="https://wa.me/919289140812?text=How can i help you" target="_blank" id="mobile_booked">Book Appointment</a></button>
+            <p>287,Fourth Floor, A1 Block, Sushant lok-2,
+                Sector- 55, Gurgaon,<br></p>
+            <div class="fffff123">© Copyright 2024, Dr. Kusum Lata | All Rights Reserved.</div>
+        </div>
+        </div>
 
      <footer>
         <div class="footer_main">
@@ -138,6 +167,7 @@
         <div class="sub_footer">© Copyright 2024, Dr. Kusum Lata | All Rights Reserved.
         </div>
     </footer>
+    <script src="js/Aboutus.js"></script>
 </body>
 
 </html>

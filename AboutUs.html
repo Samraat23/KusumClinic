@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About us</title>
+    <link rel="shortcut icon" href="Image/kusumcliniclogo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/Index.css">
     <link rel="stylesheet" href="css/Aboutus.css">
+    <link rel="stylesheet" href="css/MediaQuery/Maboutus.css">
+    <script src="https://kit.fontawesome.com/4ac0b26555.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
         <div class="nav_logo">
             <a href="Index.html"><img src="Image/kusumcliniclogo.png" alt=""></a>
         </div>
+        <div id="Hummenu">
+            <i class="fa-solid fa-bars "></i>
+        </div>
+        <div id="cancel" onclick="togglefun()"><i class="fa-solid fa-xmark"></i></div>
         <div class="navbar">
             <a href="Index.html">Home</a>
             <a href="AboutUs.html">About Us</a>
@@ -29,20 +36,26 @@
             <div class="about_img">
                 <div class="img_box1"></div>
                 <div class="img_box2"></div>
-                <img src="Image/aboutus.jpeg" alt="">
+                <img src="Image/aboutus.jpeg" alt="" id="aboutimg">
             </div>
             <div class="about_content">
                 <h5>About</h5><br>
                 <h1>Dr.Kusum Lata</h1>
                 <h4>MD - Obstetrics & Gynaecology, MBBS
-
                     Laparoscopic Surgeon (Obs & Gyn),Gynecologist,Obstetrician
                     17 Years Experience Overall  (12 years as specialist)</h4> <br><br>
                     <p>Dr. Kusum is a renowned Gynecologist and Laparoscopic Surgeon. She has vast experience of various premiere institutes of North India like PGI, Chandigarh, AIIMS New DELHI & PGIMS Rohtak.
-
                         She completed her post-graduation (MD) in Obstetrics & Gynecology from prestigious apex institute PGIMER, Chandigarh. She has been trained from All India Institute of Medical Science and served as a consultant in AIIMS, New Delhi and treated huge number of women due to her vast knowledge of every kind of gynecological problem. She has served as a faculty in PGIMS Rohtak also. She has good experience in managing high-risk cases in Obstetrics and Gynecology, infertility, adolescent health issues.
 
                     </p>
+            </div>
+            <div class="mobile_about">
+                <h1 id="drkusum">Dr.Kusum Lata</h1>
+                <h4>MD - Obstetrics & Gynaecology, MBBS
+                    Laparoscopic Surgeon (Obs & Gyn),Gynecologist,Obstetrician
+                    17 Years Experience Overall.</h4> <br><br>
+                    <p>Dr. Kusum is a renowned Gynecologist and Laparoscopic Surgeon. She has vast experience of various premiere institutes of North India like PGI, Chandigarh, AIIMS New DELHI & PGIMS Rohtak.
+                        She completed her post-graduation (MD) in Obstetrics & Gynecology from prestigious apex institute PGIMER, Chandigarh. She has been trained from All India Institute of Medical Science and served as a consultant in AIIMS, New Delhi and treated huge number of women due to her vast knowledge of every kind of gynecological problem. She has served as a faculty in PGIMS Rohtak also. She has good experience in managing high-risk cases in Obstetrics and Gynecology, infertility, adolescent health issues.</p>
             </div>
         </div>
     </main>
@@ -85,13 +98,7 @@
             <p>Dr Kusum Lata Bhardwaj has done her MD,Post graduation from PGIMER,Chandigarh.During her residency,she consistently demonstrated an unwavering dedication to her studies, exhibiting exceptional diligence and perseverance.Dr Kusum's relentless passion for learning and commitment to providing the best possible care made her an exemplary resident, admired by both colleagues an patients alike.     </p>   
          </div> 
     </div>
-    <!-- <div class="exprience_department-5">
-        <h1>PGIMER,Chandigarh</h1>
-        <p>Dr Kusum Lata Bhardwaj has done her MD,Post graduation from PGIMER,Chandigarh.During her residency,she consistently demonstrated an unwavering dedication to her studies, exhibiting exceptional diligence and perseverance.Dr Kusum's relentless passion for learning and commitment to providing the best possible care made her an exemplary resident, admired by both colleagues an patients alike.     </p>    
-     </div> 
-     <div class="exprience_d-5">
-        <button>01/07/2009 to 30/06/2012</button>
-    </div> -->
+ 
     </div>
     <div class="public">
         <h1>Publications</h1>
@@ -138,17 +145,17 @@
     </div>
     <div class="awardment">
         <h1 id="award_achive">Awards and Achievements</h1>
-        <div>
-            <img src="/Image/awardpng.png" alt="">
+        <div class="imagecontent">
+            <img src="/Image/awardpng.png" alt="" class="imagecenter">
             <p>Best prize in National Conference of Indian Menopause Society in Faridabad,
                Feb 2012.</p>
         </div>
-        <div>
+        <div class="imagecontent">
            <img src="/Image/awardpng22.png" alt="">
            <p>“ Kuldeep Jain –BSVL” award for the best paper in IVF in National Conference of
             Indian Fertility Society held in New Delhi, Dec 2013.</p>
         </div>
-        <div>
+        <div class="imagecontent">
             <img src="/Image/awardpng333.png" alt="">
             <p>Won Best Prize among ART category for paper presentation in FENIX 2015 at AIIMS.</p>
         </div>
@@ -179,6 +186,27 @@
         <button onclick="Cgopre()">&lt;</button>
         <button onclick="Cgonext()">&gt;</button>
     </div>
+    <div class="mobileversion_footer">
+        <div class="mobile_footer">
+            <div class="left_mobile">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="AboutUs.html">About us</a></li>
+            <li><a href="Treatment.html">Treatment</a></li>
+            </div>
+            <div class="right_mobile">
+                <li><a href="Blogpage.html">Blogs</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+                <li><a href="Gallary.html">Gallery</a></li>
+            </div>
+            
+        </div>
+        <div class="mobile_appointment">
+            <button> <a href="https://wa.me/919289140812?text=How can i help you" target="_blank" id="mobile_booked">Book Appointment</a></button>
+            <p>287,Fourth Floor, A1 Block, Sushant lok-2,
+                Sector- 55, Gurgaon,<br></p>
+            <div class="fffff123">© Copyright 2024, Dr. Kusum Lata | All Rights Reserved.</div>
+        </div>
+        </div>
     <footer>
         <div class="footer_main">
             <div class="footer_logo">

@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treatment</title>
+    <link rel="shortcut icon" href="Image/kusumcliniclogo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/Treatment.css">
+    <link rel="stylesheet" href="css/MediaQuery/Mtreatment.css">
+    <script src="https://kit.fontawesome.com/4ac0b26555.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -12,6 +15,10 @@
         <div class="nav_logo">
             <a href="Index.html"><img src="Image/kusumcliniclogo.png" alt=""></a>
         </div>
+        <div id="Hummenu">
+            <i class="fa-solid fa-bars "></i>
+        </div>
+        <div id="cancel" onclick="togglefun()"><i class="fa-solid fa-xmark"></i></div>
         <div class="navbar">
             <a href="Index.html">Home</a>
             <a href="AboutUs.html">About Us</a>
@@ -25,12 +32,11 @@
         </div>
       </nav>
     <header>
-        <h1>Treatment</h1>
-    </header>
-
-    <div class="treatment">
-        
-        <div class="treatment_detail">
+        <h1 id="treatpos">Treatment</h1>
+    </header> 
+    <div class="dis_none">
+       <div class="treatment">
+          <div class="treatment_detail">
             <div class="treatment_img">
                 <img src="/Image/endometrosis22.jpg" alt="">
             </div>
@@ -147,6 +153,124 @@
             <p>9</p>
         </div>
     </div>
+     </div>
+     <div class="mobileflex">
+        <div class="mflexcontainer">
+            <div class="Mimage">
+                <img src="/Image/endometrosis22.jpg" alt="">
+            </div>
+            <div class="Mcontent">
+                <h1>ENDOMETROISIS</h1>
+                <p>It's an unrecognized problem among teenage girls, and it's something that every young woman who has painful menstruation should be aware of ... </p>
+                <div class="Readme"><a href="Endo.html">Read more</a></div>
+            </div>
+        </div>
+        <div class="mflexcontainer">
+            <div class="Mimage">
+                <img src="/Image/overian cyst22.jpg" alt="">
+            </div>
+            <div class="Mcontent">
+                <h1>OVARAIN CYST</h1>
+                <p>An ovarian cyst is a larger fluid-filled sac (more than 3 cm in diameter) that develops on or in an ovary. A cyst can vary in size froma few centimetres to the size of a large melon.</p>
+                <div class="Readme"><a href="overian.html">Read more</a></div>
+            </div>
+        </div>
+        <div class="mflexcontainer">
+            <div class="Mimage">
+                <img src="/Image/fibroid22.jpg" alt="">
+            </div>
+            <div class="Mcontent">
+                <h1>FIBROIDS</h1>
+                <p>A fibroid is a solid, benign (non-cancerous) growth or tumour that usually arises in the womb. They are made up of smooth muscle tissue, the same as the womb but in excess...</p>
+                <div class="Readme">
+                    <a href="Fibro.html">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="mflexcontainer">
+            <div class="Mimage">
+                <img src="/Image/pcos 24....jpg" alt="">
+            </div>
+            <div class="Mcontent">
+                <h1>PCOS</h1>
+                <p> PCOS is a hormonal disorder affecting multiple systems of the body along with reproductive system involving ovaries.</p>
+                <div class="Readme"> <a href="Pcos.html">Read more</a></div>
+            </div>
+        </div>
+        <div class="mflexcontainer">
+            <div class="Mimage">
+                <img src="/Image/hysterectomyoverview_1280.jpg" alt="">
+            </div>
+            <div class="Mcontent">
+                <H1>HYSTEROSCOPY</H1>
+                <p>Hysteroscopy is a technique to examine the inside of the uterus (the womb) and diagnose or treat various uterine problems</p>
+                <div class="Readme"> <a href="Hystre.html">Read more</a></div>
+            </div>
+        </div>
+        <div class="mflexcontainer">
+            <div class="Mimage">
+                <img src="/Image/pregnancy.jpg" alt="">
+            </div>
+            <div class="Mcontent">
+                <h1>PREGNANCY CARE</h1>
+                <p>Pregnancy care is not just about medical check-ups; it's about nurturing the body, mind, and soul of both the mother and the baby. Pregnancy is a journey that teaches you to be patient, loving, and caring towards yourself and the life growing.......</p>
+                <div class="Readme"> <a href="Pregnancy.html">Read more</a></div>
+            </div>
+        </div>
+        <div class="mflexcontainer">
+            <div class="Mimage">
+                <img src="/Image/infertility - Copy.jpg" alt="">
+            </div>
+            <div class="Mcontent">
+                <h1>INFERTILITY</h1>
+                <p>In a couple trying to conceive, male factor might be solely responsible for 30% and in 20% or it might be a contributory factor.</p>
+                <div class="Readme"><a href="Infertility.html">Read more</a></div>
+            </div>
+        </div>
+        <div class="mflexcontainer">
+            <div class="Mimage">
+                <img src="/Image/vaginal cycst22.jpg" alt="">
+            </div>
+            <div class="Mcontent">
+                <h1>Vaginal Infection</h1>
+                <p>Vaginal infections are common conditions that affects women across all ages. They occur when there is an discrepancy in the normal vaginal flora </p>
+                <div class="Readme">
+                    <a href="Vaginal.html">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="mflexcontainer">
+            <div class="Mimage">
+                <img src="/Image/gynecology22.jpg" alt="">
+            </div>
+            <div class="Mcontent">
+                <h1>GYNECOLOGY</h1>
+                <p>In a couple trying to conceive, male factor might be solely responsible for 30% and in 20% or it might be a contributory factor.</p>
+                <div class="Readme"> <a href="Gyno.html">Read more</a></div>
+            </div>
+        </div>
+     </div>
+    <div class="mobileversion_footer">
+        <div class="mobile_footer">
+            <div class="left_mobile">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="AboutUs.html">About us</a></li>
+            <li><a href="Treatment.html">Treatment</a></li>
+            </div>
+            <div class="right_mobile">
+                <li><a href="Blogpage.html">Blogs</a></li>
+                <li><a href="Contactus.html">Contact Us</a></li>
+                <li><a href="Gallary.html">Gallery</a></li>
+            </div>
+            
+        </div>
+        <div class="mobile_appointment">
+            <button> <a href="https://wa.me/919289140812?text=How can i help you" target="_blank" id="mobile_booked">Book Appointment</a></button>
+            <p>287,Fourth Floor, A1 Block, Sushant lok-2,
+                Sector- 55, Gurgaon,<br></p>
+            <div class="fffff123">© Copyright 2024, Dr. Kusum Lata | All Rights Reserved.</div>
+        </div>
+        </div>
     <footer>
         <div class="footer_main">
             <div class="footer_logo">
@@ -188,13 +312,14 @@
             </div>
         </div>
         <div id="dis_hr">
-        <hr id="disclamir">
-    </div>
+             <hr id="disclamir">
+        </div>
         <div class="discharge_content">
-        <p>Disclaimer: The content published on the website "www.drprernagupta.com" is for generating awareness and is solely intended for educational purposes only. It should not be treated as a substitute for professional advice or prescription. Every individual and their case is different, and the results may vary from person to person.</p>
+        <p>Disclaimer: The content published on the website "www.drkusumlata.in" is for generating awareness and is solely intended for educational purposes only. It should not be treated as a substitute for professional advice or prescription. Every individual and their case is different, and the results may vary from person to person.</p>
         </div>
         <div class="sub_footer">© Copyright 2024, Dr. Kusum Lata | All Rights Reserved.
         </div>
     </footer>
+    <script src="js/Aboutus.js"></script>
 </body>
 </html>

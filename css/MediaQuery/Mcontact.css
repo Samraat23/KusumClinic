@@ -1,0 +1,194 @@
+
+#cancel{
+    display: none;
+}
+#Hummenu i{
+    position: absolute;
+    right: 30px;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+
+}
+.mobileversion_footer{
+    display: none;
+}
+
+@media screen and (max-Width : 480px){
+    nav{
+        position: fixed;
+        width: 100vw;
+        height: 100px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    #Hummenu i{
+        display: block;
+    }
+    .navbar{
+      width: 100%;
+      height: 121vh;
+      position: absolute;
+      background-color: rgb(163, 227, 236);
+      top: 0;
+      left:0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 30px;
+      text-align: justify;
+      transform: translateX(100%);
+      transition: ease-in-out 0.3s;
+      opacity: 0;
+      visibility: hidden;
+
+    }
+    .navbar a{
+        position: relative;
+        bottom: 50px;
+        text-align: center;
+        right: 15px;
+    }
+    .nav_logo img{
+        width: 150px;
+    }
+    .book_appoint{
+        display: none;
+    }
+    #cancel{
+        display: block;
+        z-index: 999;
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+        position: relative;
+        top: 12px;
+        left: 2px;
+        display: none;
+    }
+    .contact_box{
+        flex-direction: column;
+        top: 100px;
+        height: 300px;
+    }
+    .contact_image img{
+        width: 200px;
+        height: 200px;
+    }
+    .contact_content h1{
+        font-size: 18px;
+        position: relative;
+        top: -30px;
+        text-align: center;
+        font-family: poppins;
+        color: rgba(255,255,255,1);
+        color: brown;
+    }
+    .contact_content p {
+        font-size: 12px;
+        position: relative;
+        top: -25px;
+        padding: 0px 10px;
+        text-align: center;
+        font-family: poppins;
+        color: rgb(0, 0, 0);
+    }
+    .contact_detail_box{
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    position: relative;
+    top: 100px;
+     }
+    .address{
+        width: 200px;
+        height: 180px;
+        margin-bottom: 20px;
+    }
+    .address img{
+        width: 30px;
+        height: 30px;
+        top: 10px;
+    }
+    .address h1{
+        font-size: 20px;
+        top: 20px;
+    }
+    .address p{
+        font-size: 17px;
+        top: 30px;
+    }
+    #book_scaner{
+        width: 120px;
+        height: 120px;
+
+    }
+    .mobileversion_footer{
+        background-color: #e9ecef;
+        position: relative;
+        top: 80px;
+        height: auto;
+        display: block;
+        
+       
+    }
+    .mobile_footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: poppins;
+        position:relative;
+        top: 20px;
+    
+    }
+    .mobile_footer a{
+        color:black ;
+    }
+    .mobile_footer li{
+       
+        padding-top: 10px;
+    }
+    .mobile_appointment{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        position:relative;
+        top: 50px;
+    }
+    .mobile_appointment button{
+        font-size: 16px;
+        width: 200px;
+        padding: 7px;
+        border-radius: 8px;
+        border: 1px solid white;
+        font-family: poppins;
+        background-color: #af1f60;
+        color: #e9ecef;
+    
+        
+    }
+    .mobile_appointment p{
+         font-size: 16px;
+         font-family: poppins;
+         text-align: center;
+         padding: 0px 10px;
+    }
+    .fffff123{
+        width: 100%;
+        background-color: black;
+        height: 50px;
+        color: rgba(255,255,255,1);
+        text-align: center;
+        font-size: 15px;
+        padding: 14px;
+    }
+    #mobile_booked{
+        color: antiquewhite;
+    }
+    
+    footer{
+        display: none;
+    }
+}

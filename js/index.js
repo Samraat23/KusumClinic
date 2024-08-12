@@ -43,4 +43,17 @@
     //     }
     // }
 
+    const humburger = document.querySelector('#Hummenu');
+
+    humburger.addEventListener('click', function(){
+        // document.querySelector(".nav_li").classList.add("active");
+       
+    })
+    
+    
+    const hmenu = document.querySelector("#Hummenu")
+    
+    hmenu.addEventListener('click', function(){
+        this.remove()
+    })
     
